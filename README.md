@@ -2,6 +2,13 @@
 
 Imported from Codeplex without history.  (Revision 17477)
 
+Somebody (perhaps original author) please take over maintaining this.
+
+My changes:
+ - Move source under src
+ - (TODO) Port to .NET 4.6.2
+ - (TODO) Make Nuget package
+
 ---- Original Readme below ----
 
 # Project Description
