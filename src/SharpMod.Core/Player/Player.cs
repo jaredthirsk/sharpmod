@@ -898,8 +898,8 @@ namespace SharpMod.Player
                 return;
 
             // volume slide
-            a.TmpVolume = (sbyte)(a.TmpVolume + dat >> 4);
-            a.TmpVolume = (sbyte)(a.TmpVolume - dat & 0xf);
+            a.TmpVolume = (sbyte)(a.TmpVolume + (dat >> 4));
+            a.TmpVolume = (sbyte)(a.TmpVolume - (dat & 0xf));
             if (a.TmpVolume < 0)
                 a.TmpVolume = 0;
             if (a.TmpVolume > 64)
